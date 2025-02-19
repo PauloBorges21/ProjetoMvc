@@ -1,0 +1,9 @@
+D:\Source\Repos\CursoDio\ProjetoMvc\obj\Debug\net9.0\ProjetoMvc.csproj.AssemblyReference.cache
+D:\Source\Repos\CursoDio\ProjetoMvc\obj\Debug\net9.0\ProjetoMvc.GeneratedMSBuildEditorConfig.editorconfig
+D:\Source\Repos\CursoDio\ProjetoMvc\obj\Debug\net9.0\ProjetoMvc.AssemblyInfoInputs.cache
+D:\Source\Repos\CursoDio\ProjetoMvc\obj\Debug\net9.0\ProjetoMvc.AssemblyInfo.cs
+D:\Source\Repos\CursoDio\ProjetoMvc\obj\Debug\net9.0\ProjetoMvc.csproj.CoreCompileInputs.cache
+D:\Source\Repos\CursoDio\ProjetoMvc\obj\Debug\net9.0\ProjetoMvc.MvcApplicationPartsAssemblyInfo.cache
+D:\Source\Repos\CursoDio\ProjetoMvc\obj\Debug\net9.0\ProjetoMvc.RazorAssemblyInfo.cache
+D:\Source\Repos\CursoDio\ProjetoMvc\obj\Debug\net9.0\ProjetoMvc.RazorAssemblyInfo.cs
+D:\Source\Repos\CursoDio\ProjetoMvc\obj\Debug\net9.0\ProjetoMvc.sourcelink.json
