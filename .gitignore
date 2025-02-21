@@ -1,2 +1,101 @@
 
 .codegpt
+# Ignorar configurações locais
+appsettings.Development.json
+appsettings.json
+
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Visual Studio files
+.vscode/
+.vs/
+*.code-workspace
+
+# Dotnet-specific
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.dbmdl
+*.bak
+
+# Entity Framework Migrations
+migrations/
+
+# Configuration files
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+.nuget/
+packages/
+# Prevent locking issues
+**/project.assets.json
+**/project.lock.json
+
+# Logs
+*.log
+*.tlog
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Rider
+.idea/
+*.sln.iml
+
+# Windows-specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Mac-specific
+.DS_Store
+
+# Linux-specific
+*.swp
+
+# Azure Functions
+local.settings.json
+
+# Docker
+*.dockerignore
+docker-compose.override.yml
+
+# SonarQube
+.sonar/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Coverage
+coverage/
+*.coverage
+*.coverlet.json
+
+# Others
+*.vspscc
+*.vssscc
