@@ -34,4 +34,9 @@ app.MapControllerRoute(
     .WithStaticAssets();
 
 
+app.MapControllerRoute(
+    name: "contato",
+    pattern: "contato/",
+    defaults: new { controller = "Contato", action = "Index" });
+
 app.Run();

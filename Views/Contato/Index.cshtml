@@ -1,45 +1,45 @@
 @model IEnumerable<ProjetoMvc.Models.Contato>
 
-    @{
-        ViewData["Title"] = "Listagem de contatos";
-    }
+@{
+    ViewData["Title"] = "Listagem de contatos";
+}
 
-    <h2>Contatos</h2>
+<h2>Contatos</h2>
 
-    <p>
-        <a asp-action="Criar">Novo Contatos</a>
-    </p>
+<p>
+    <a asp-action="Criar">Novo Contatos</a>
+</p>
 
-    <table class="table">        
-        <!-- #region >-->
-        <thead>
+<table class="table">
+    <!-- #region >-->
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Id)</th>
+
+            <th>@Html.DisplayNameFor(model => model.Nome)</th>
+
+            <th>@Html.DisplayNameFor(model => model.Telefone)</th>
+
+            <th>@Html.DisplayNameFor(model => model.Ativo)</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
             <tr>
-                <th>@Html.DisplayNameFor(model => model.Id)</th>
-           
-                <th>@Html.DisplayNameFor(model => model.Nome)</th>
-           
-                <th>@Html.DisplayNameFor(model => model.Telefone)</th>
-           
-                <th>@Html.DisplayNameFor(model => model.Ativo)</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach(var item in Model)
-            {
-               <tr>
-                <td>@Html.DisplayNameFor(model => model.Id)</td>
-           
-                <td>@Html.DisplayNameFor(model => model.Nome)</td>
-           
-                <td>@Html.DisplayNameFor(model => model.Telefone)</td>
-           
-                <td>@Html.DisplayNameFor(model => model.Ativo)</td>
-            </tr>
-            <td>
-                <a asp-action="Editar" asp-route-itemid="item.Id">Editar</a>|
-                <a asp-action="Detalhes" asp-route-itemid="item.Id">Detalhes</a>|
-                <a asp-action="Deletar" asp-route-itemid="item.Id">Deletar</a>
+                <td>@Html.DisplayFor(model => item.Id)</td>
+
+                <td>@Html.DisplayFor(model => item.Nome)</td>
+
+                <td>@Html.DisplayFor(model => item.Telefone)</td>
+
+                <td>@Html.DisplayFor(model => item.Ativo)</td>
+                <td>
+                    <a asp-action="Editar" asp-route-id="@item.Id">Editar</a>|
+                    <a asp-action="Detalhes" asp-route-id="@item.Id">Detalhes</a>|
+                    <a asp-action="Deletar" asp-route-id="@item.Id">Deletar</a>
                 </td>
-            }    
-        </tbody>
-    </table>
+            </tr>
+        }
+    </tbody>
+</table>
